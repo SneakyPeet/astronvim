@@ -32,6 +32,14 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+
+    -- Mine
+    ["<C-d>"] = {"<C-d>zz",  desc = "Half page down"},
+    ["<C-u>"] = {"<C-u>zz", desc = "Half page up"},
+    ["n"] = {"nzzzy", desc = "Half page forward search"},
+    ["N"] = {"Nzzzy", desc = "Half page backward search"}, 
+    -- End Mine 
+
   },
   t = {
     -- setting a mapping to false will disable it
